@@ -19,32 +19,24 @@
         <p> What do you know about Ruth Bader Ginsburg? Take this quiz and prove your knowledge of the Supreme Court's oldest justice. <a href="https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg"> From Wikipedia</a>. </p>
         <form>
 
-          <fieldset class="form-group">
           <div class="form-group">
             <label class="form-control-label" for="yearappointed"> What year was Ginsburg appointed to the Supreme Court?</label>
-            <input class="form-control" type="text" name="yearappointed" id="yearappointed" placeholder="Year" maxlength="4"></label>
+            <input class="form-control" type="text" name="yearappointed" id="yearappointed" placeholder="Year" maxlength="4">
           </div>
-        </fieldset>
 
-          <fieldset class="form-group">
             <div class="form-group">
               <label class="form-control-label" for="presidentappointed">What president was Ginsburg appointed by?</label>
-              <input class="form-control" type="text" name="presidentappointed" id="presidentappointed" placeholder="President" maxlength="30"></label>
+              <input class="form-control" type="text" name="presidentappointed" id="presidentappointed" placeholder="President" maxlength="30">
             </div>
-          </fieldset>
 
-          <fieldset class="form-group">
             <div class="form-group">
-              <label class="form-control-label" for="notoriousrbg">Ruth Bader Ginsburg in popular culture: <em> She's known as the Notorious RBG. But do you know why? </em></label>
+              <label class="form-control-label" for="notoriousrbg">Ruth Bader Ginsburg in popular culture: <em> She's known as the Notorious RBG. But do you know why? </em>
               <textarea class="form-control" name="notoriousrbg" id="notoriousrbg" placeholder="She certainly got that name for a reason!"></textarea></label>
           </div>
-          </fieldset>
 
-
-          <fieldset class="form-group">
             <div class="form-group">
           <label class="form-control-label" for="LawJournal"> What was the name of the law journal RBG founded? </label>
-            <select class="form-control" name="LawJournal" id="LawJournal" value="journal">
+            <select class="form-control" name="LawJournal" id="LawJournal">
               <option value="journal">The Women's Journal</option>
               <option value="journal">Law and Society</option>
               <option value="journal">Conservative Law Ideals</option>
@@ -53,11 +45,10 @@
               <option value="journal">Notorious RBG's Journal</option>
             </select>
           </div>
-        </fieldset>
 
-<fieldset>
         <div class="form-group">
-          <label>What is RBG known as an advocate of?</label>
+          <label class="form-check-label">What is RBG known as an advocate of?</label>
+          </div>
 
           <div class="form-check">
             <label class="form-check-label">
@@ -77,16 +68,15 @@
             </label>
           </div>
 
-          <div class="form-check">
+          <div class="form-check pb-3">
             <label class="form-check-label">
               <input class="form-check-input" type="checkbox" name="advocateof" value="genderequality"> Gender equality
             </label>
           </div>
-</fieldset>
 
-        <fieldset class="form-group">
           <div class="form-group">
-          <label> What was the name of RBG's late husband?</label>
+          <label class="form-check-label"> What was the name of RBG's late husband?</label>
+        </div>
 
           <div class="form-check">
               <label class="form-check-label">
@@ -106,12 +96,11 @@
                   </label>
                 </div>
 
-                <div class="form-check">
+                <div class="form-check pb-3">
                     <label class="form-check-label">
                       <input class="form-check-input" type="radio" name="husbandname" value="Peter"> Peter
                     </label>
                   </div>
-      </fieldset>
 
       <button class="btn btn-primary" type="submit" value="submit">Submit</button>
       <button class="btn btn-secondary" type="reset" value="reset">Restart</button>
